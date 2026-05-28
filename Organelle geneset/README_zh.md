@@ -7,16 +7,16 @@
 | 细胞器 | 数据库 | 原始基因数 |
 |--------|--------|-----------|
 | 线粒体 Mitochondria | [MitoCarta 3.0](https://www.broadinstitute.org/mitocarta) | 1077 |
-| 内质网 Endoplasmic Reticulum | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | — |
-| 高尔基体 Golgi | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | — |
-| 溶酶体 Lysosome | [hLGDB](http://lysosome.unipg.it/) | — |
-| 过氧化物酶体 Peroxisome | [PeroxisomeDB](https://www.peroxisomedb.org/) | — |
+| 内质网 Endoplasmic Reticulum | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | 1652 |
+| 高尔基体 Golgi | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | 1586 |
+| 溶酶体 Lysosome | [hLGDB](http://lysosome.unipg.it/) | 435 |
+| 过氧化物酶体 Peroxisome | [PeroxisomeDB](https://www.peroxisomedb.org/) | 98 |
 | 脂滴 Lipid Droplet | [Lipid Droplet Knowledge Portal](https://lipiddroplet.org/) | 1077 (≥2) / 505 (≥3) |
 
 ## 数据处理
 
 1. **跨细胞器重复基因去除**：在多个细胞器基因集中同时出现的基因已被删除，每个基因集仅保留该细胞器的独有基因。
-2. **脂滴基因集筛选**：设置了两个置信度阈值——在 ≥2 个研究中检测到的基因（min2，550个）和更严格的 ≥3 个研究阈值（min3，232个）。下游分析推荐使用 min3 版本。
+2. **脂滴基因集筛选**：设置了两个置信度阈值——在 ≥2 个研究中检测到的基因（min2，550个）和更严格的 ≥3 个研究阈值（min3，232个）。下游处理分析使用 min3 版本。
 
 ## 基因数量（处理后）
 
