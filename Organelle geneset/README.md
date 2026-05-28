@@ -7,10 +7,10 @@ Curated human gene sets for 6 subcellular organelles, collected from established
 | Organelle | Database | Original Genes |
 |-----------|----------|---------------|
 | Mitochondria | [MitoCarta 3.0](https://www.broadinstitute.org/mitocarta) | 1077 |
-| Endoplasmic Reticulum | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | — |
-| Golgi | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | — |
-| Lysosome | [hLGDB](http://lysosome.unipg.it/) | — |
-| Peroxisome | [PeroxisomeDB](https://www.peroxisomedb.org/) | — |
+| Endoplasmic Reticulum | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | 1652 |
+| Golgi | [MsigDB C5:GO:CC](https://www.gsea-msigdb.org/gsea/msigdb) | 1586 |
+| Lysosome | [hLGDB](http://lysosome.unipg.it/) | 435 |
+| Peroxisome | [PeroxisomeDB](https://www.peroxisomedb.org/) | 98 |
 | Lipid Droplet | [Lipid Droplet Knowledge Portal](https://lipiddroplet.org/) | 1077 (≥2) / 505 (≥3) |
 
 ## Processing
